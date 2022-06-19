@@ -1,0 +1,53 @@
+html {
+  background-color: #1a2422;
+
+  color: white;
+  font-size: 16px;
+  font-family: 'Source Code Pro';
+
+  text-align: center;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  min-width: 1200px;
+  margin: auto;
+}
+
+.app {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.text {
+  display: block;
+  font-size: 30px;
+  opacity: 0.5;
+}
+
+#keycode {
+  font-size: 160px;
+  font-weight: 700;
+  opacity: 0.75;
+}
+
+#others {
+  margin-top: 10vh;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#other__key,
+#other__location,
+#other__code {
+  display: inline-block;
+  justify-content: space-between;
+}
+
+#credentials {
+  margin-top: 50px;
+}
